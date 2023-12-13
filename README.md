@@ -1,3 +1,3 @@
 # Chatgpt_bio
 
-Clone the res to downloaded data.
+Clone the repository to downloaded data.
