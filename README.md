@@ -1,3 +1,3 @@
-# Chatgpt_bio
+# Chatgpt_pBio
 
 Clone the repository to downloaded data.
