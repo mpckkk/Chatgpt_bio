@@ -5,5 +5,5 @@ This repository contains the required files for `PROMPT. BIOINFO. CASE STUDY: Me
 Clone the rerpository to get the data.
 
 
-## contact
-If any issues, open a question on github.
+## Contact
+If you encounter any issues or have questions, feel free to open a discussion or raise an issue on GitHub.
