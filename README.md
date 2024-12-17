@@ -1,4 +1,5 @@
 # Chatgpt_pBio
+[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This repository contains the required files for `PROMPT. BIOINFO. CASE STUDY: Metaviral genome assembly and species identification`
 
