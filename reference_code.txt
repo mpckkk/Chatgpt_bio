@@ -1,1 +1,48 @@
+#viral genomic assembly and annotation task.
+
+#input of this example is (1) 10142.1.149555.ATGTC.subset_500k.fastq.gz (2) adapters.fa (3) Ref_database folder with reference genome fasta files
+
+#load all required modules
+module load trimmomatic/0.39
+module load spades/3.15
+module load quast/5.0
+module load kraken2
+
+
+#use two threads in the example
+
+#split the interleaving fastq file into read1 and read2
+
+zcat 10142.1.149555.ATGTC.subset_500k.fastq.gz | awk 'NR%8==1{c=4} c&&c--' > read_1.fastq
+zcat 10142.1.149555.ATGTC.subset_500k.fastq.gz | awk 'NR%8==5{c=4} c&&c--' > read_2.fastq
+
+#trim the reads
+ 
+trimmomatic PE -threads 2 read_1.fastq read_2.fastq \
+                read_1.trim.fastq read_1un.trim.fastq \
+                read_2.trim.fastq read_2un.trim.fastq \
+                SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:adapters.fa:2:40:15
+
+#assembly (every new run needs to delete the folder)
+spades.py --metaviral --pe1-1 read_1.trim.fastq --pe1-2 read_2.trim.fastq -t 2 -o ./spadeout
+
+#check quality of assembly
+quast.py ./spadeout/contigs.fasta -1 read_1.trim.fastq -2 read_2.trim.fastq -o ./quastout
+
+
+
+#build a customized database for Kraken2
+kraken2-build --download-taxonomy --db MYDB
+
+for filename in ./Ref_database/*.fa; do
+    kraken2-build --add-to-library $filename --db MYDB
+done
+
+kraken2-build --build --db MYDB
+
+#annotate contigs by Kraken2
+kraken2 --db MYDB --use-names --threads 2 --output kraken2.output --report kraken2.report ./spadeout/contigs.fasta
+
+#annoate from filtered reads
+kraken2 --db MYDB --use-names --threads 2 --output kraken2.reads.output --report kraken2.reads.report –-paired read_1.trim.fastq read_2.trim.fastq
 
