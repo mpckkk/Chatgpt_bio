@@ -29,7 +29,7 @@ spades.py --metaviral --pe1-1 read_1.trim.fastq --pe1-2 read_2.trim.fastq -t 2 -
 #check quality of assembly
 quast.py ./spadeout/contigs.fasta -1 read_1.trim.fastq -2 read_2.trim.fastq -o ./quastout
 
-
+checkv end_to_end ./spadeout/contigs.fasta ./checkvout 
 
 #build a customized database for Kraken2
 kraken2-build --download-taxonomy --db MYDB
