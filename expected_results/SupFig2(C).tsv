@@ -1,0 +1,11 @@
+contig_id	contig_length	proviral_length	aai_expected_length	aai_completeness	aai_confidence	aai_error	aai_num_hits	aai_top_hit	aai_id	aai_af	hmm_completeness_lower	hmm_completeness_upper	hmm_num_hits	kmer_freq
+NODE_1_length_129396_cov_59.937728_cutoff_5_type_linears	129396	NA	NA	NA	NA	NA	0	NA	NA	NA	84.78439017277054	97.00133238591293	64	1.0
+NODE_2_length_72533_cov_106.941385_cutoff_5_type_linears	72533	NA	NA	NA	NA	NA	0	NA	NA	NA	58.04072263782165	96.85433717796744	20	1.0
+NODE_3_length_71442_cov_108.617025_cutoff_5_type_linears	71442	NA	NA	NA	NA	NA	0	NA	NA	NA	65.61470559479375	94.18088731682789	24	1.0
+NODE_4_length_54010_cov_143.602637_cutoff_5_type_linears	54010	NA	NA	NA	NA	NA	0	NA	NA	NA	94.25903390240562	99.99996515455021	27	1.01
+NODE_5_length_39188_cov_198.015162_cutoff_5_type_linears	39188	NA	NA	NA	NA	NA	0	NA	NA	NA	56.94822404811037	91.82420640749756	24	1.0
+NODE_6_length_37727_cov_205.817477_cutoff_5_type_linears	37727	NA	NA	NA	NA	NA	0	NA	NA	NA	50.82999365146761	98.93117300002439	24	1.0
+NODE_7_length_36768_cov_211.427789_cutoff_5_type_linears	36768	NA	NA	NA	NA	NA	0	NA	NA	NA	52.01752879196387	98.45729707126469	22	1.0
+NODE_8_length_35327_cov_219.687858_cutoff_5_type_linears	35327	NA	NA	NA	NA	NA	0	NA	NA	NA	79.14447051625454	99.36293192413353	20	1.0
+NODE_1_length_76675_cov_101.121648_cutoff_0_type_circular	76675	NA	NA	NA	NA	NA	0	NA	NA	NA	71.63835699677604	100.0	17	1.0
+NODE_2_length_44628_cov_173.901506_cutoff_0_type_circular	44628	NA	NA	NA	NA	NA	0	NA	NA	NA	73.34665205595613	97.11675056547375	29	1.0

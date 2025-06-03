@@ -1,0 +1,43 @@
+  0.60	11790	11790	U	0	unclassified
+ 99.40	1959004	0	R	1	root
+ 99.40	1959004	0	R1	10239	  Viruses
+ 41.58	819404	0	R2	12333	    unclassified bacterial viruses
+  8.33	164076	164076	S	1348402	      Pseudoalteromonas phage PSA-HS9
+  8.32	163964	163964	S	1348397	      Pseudoalteromonas phage PSA-HP1
+  8.31	163807	163807	S	1348399	      Pseudoalteromonas phage PSA-HS2
+  8.31	163805	163805	S	1348400	      Pseudoalteromonas phage PSA-HM1
+  8.31	163752	163752	S	1348398	      Pseudoalteromonas phage PSA-HS6
+ 41.19	811747	0	R2	2731341	    Duplodnaviria
+ 41.19	811747	0	K	2731360	      Heunggongvirae
+ 41.19	811747	0	P	2731618	        Uroviricota
+ 41.19	811747	3	C	2731619	          Caudoviricetes
+  8.28	163207	0	F	2946168	            Pervagoviridae
+  8.28	163207	0	G	2948648	              Callevirus
+  8.28	163207	0	S	2955570	                Callevirus phi38una
+  8.28	163207	163207	S1	1327977	                  Cellulophaga phage phi38:1
+  8.26	162872	0	G	1918017	            Helsingorvirus
+  8.26	162872	0	S	1918192	              Helsingorvirus Cba181
+  8.26	162872	162872	S1	1327982	                Cellulophaga phage phi18:1
+  8.26	162797	0	F	2946166	            Pachyviridae
+  8.26	162797	0	G	2946816	              Baltivirus
+  8.26	162797	0	S	2955411	                Baltivirus phi18tres
+  8.26	162797	162797	S1	1327983	                  Cellulophaga phage phi18:3
+  8.24	162309	0	G	1918718	            Cbastvirus
+  8.24	162309	0	S	1918720	              Cbastvirus ST
+  8.24	162309	0	S1	756282	                Cellulophaga phage phiST
+  8.24	162309	162309	S2	1327992	                  Cellulophaga phage phi13:1
+  8.15	160559	0	C1	2788787	            unclassified Caudoviricetes
+  8.15	160559	160559	S	1327999	              Cellulophaga phage phi38:2
+ 16.64	327853	0	R2	2731342	    Monodnaviria
+ 16.64	327853	0	K	2732091	      Sangervirae
+ 16.64	327853	0	P	2732412	        Phixviricota
+ 16.64	327853	0	C	2732413	          Malgrandaviricetes
+ 16.64	327853	0	O	2732414	            Petitvirales
+ 16.64	327853	0	F	10841	              Microviridae
+ 16.64	327853	11	F1	1910950	                Bullavirinae
+  8.32	163927	0	G	1910954	                  Sinsheimervirus
+  8.32	163927	0	S	10847	                    Sinsheimervirus phiX174
+  8.32	163927	163927	S1	2886930	                      Escherichia phage phiX174
+  8.32	163915	0	G	1910951	                  Alphatrevirus
+  8.32	163915	0	S	1945589	                    Alphatrevirus alpha3
+  8.32	163915	163915	S1	10849	                      Escherichia phage alpha3

@@ -1,0 +1,29 @@
+100.00	10	0	R	1	root
+100.00	10	0	R1	10239	  Viruses
+ 50.00	5	0	R2	12333	    unclassified bacterial viruses
+ 10.00	1	1	S	1348397	      Pseudoalteromonas phage PSA-HP1
+ 10.00	1	1	S	1348398	      Pseudoalteromonas phage PSA-HS6
+ 10.00	1	1	S	1348399	      Pseudoalteromonas phage PSA-HS2
+ 10.00	1	1	S	1348400	      Pseudoalteromonas phage PSA-HM1
+ 10.00	1	1	S	1348402	      Pseudoalteromonas phage PSA-HS9
+ 50.00	5	0	R2	2731341	    Duplodnaviria
+ 50.00	5	0	K	2731360	      Heunggongvirae
+ 50.00	5	0	P	2731618	        Uroviricota
+ 50.00	5	0	C	2731619	          Caudoviricetes
+ 10.00	1	0	G	1918017	            Helsingorvirus
+ 10.00	1	0	S	1918192	              Helsingorvirus Cba181
+ 10.00	1	1	S1	1327982	                Cellulophaga phage phi18:1
+ 10.00	1	0	G	1918718	            Cbastvirus
+ 10.00	1	0	S	1918720	              Cbastvirus ST
+ 10.00	1	0	S1	756282	                Cellulophaga phage phiST
+ 10.00	1	1	S2	1327992	                  Cellulophaga phage phi13:1
+ 10.00	1	0	C1	2788787	            unclassified Caudoviricetes
+ 10.00	1	1	S	1327999	              Cellulophaga phage phi38:2
+ 10.00	1	0	F	2946166	            Pachyviridae
+ 10.00	1	0	G	2946816	              Baltivirus
+ 10.00	1	0	S	2955411	                Baltivirus phi18tres
+ 10.00	1	1	S1	1327983	                  Cellulophaga phage phi18:3
+ 10.00	1	0	F	2946168	            Pervagoviridae
+ 10.00	1	0	G	2948648	              Callevirus
+ 10.00	1	0	S	2955570	                Callevirus phi38una
+ 10.00	1	1	S1	1327977	                  Cellulophaga phage phi38:1
